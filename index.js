@@ -145,6 +145,12 @@ function moveDodger(e) {
      e.preventDefault()
      e.stopPropogation()
    }
+   
+   if (code === LEFT_ARROW){
+     moveDodgerLeft()
+   } else if (code === RIGHT_ARROW){
+     moveDodgerRight()
+   }
 }
 
 function moveDodgerLeft() {
