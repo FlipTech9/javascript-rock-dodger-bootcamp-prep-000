@@ -24,9 +24,9 @@ function checkCollision(rock) {
   
 
   // rocks are 20px high
-  rock.style.bottom = '20px'
+  //rock.style.bottom = '20px'
   // DODGER is 20px high
-  dodger.style.bottom = '20px'
+  //dodger.style.bottom = '20px'
   // GAME_HEIGHT - 20 - 20 = 360px;
   if (top > 360) {
     const dodgerLeftEdge = positionToInteger(DODGER.style.left)
