@@ -143,7 +143,10 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   
+   if([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+     e.preventDefault()
+     e.stopPropagation()
+   }
 }
 
 function moveDodgerLeft() {
